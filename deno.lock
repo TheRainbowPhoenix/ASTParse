@@ -1,0 +1,67 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:chevrotain": "npm:chevrotain@11.0.3",
+      "npm:chevrotain@^11.0.3": "npm:chevrotain@11.0.3",
+      "npm:source-map@^0.7.4": "npm:source-map@0.7.4"
+    },
+    "npm": {
+      "@chevrotain/cst-dts-gen@11.0.3": {
+        "integrity": "sha512-BvIKpRLeS/8UbfxXxgC33xOumsacaeCKAjAeLyOn7Pcp95HiRbrpl14S+9vaZLolnbssPIUuiUd8IvgkRyt6NQ==",
+        "dependencies": {
+          "@chevrotain/gast": "@chevrotain/gast@11.0.3",
+          "@chevrotain/types": "@chevrotain/types@11.0.3",
+          "lodash-es": "lodash-es@4.17.21"
+        }
+      },
+      "@chevrotain/gast@11.0.3": {
+        "integrity": "sha512-+qNfcoNk70PyS/uxmj3li5NiECO+2YKZZQMbmjTqRI3Qchu8Hig/Q9vgkHpI3alNjr7M+a2St5pw5w5F6NL5/Q==",
+        "dependencies": {
+          "@chevrotain/types": "@chevrotain/types@11.0.3",
+          "lodash-es": "lodash-es@4.17.21"
+        }
+      },
+      "@chevrotain/regexp-to-ast@11.0.3": {
+        "integrity": "sha512-1fMHaBZxLFvWI067AVbGJav1eRY7N8DDvYCTwGBiE/ytKBgP8azTdgyrKyWZ9Mfh09eHWb5PgTSO8wi7U824RA==",
+        "dependencies": {}
+      },
+      "@chevrotain/types@11.0.3": {
+        "integrity": "sha512-gsiM3G8b58kZC2HaWR50gu6Y1440cHiJ+i3JUvcp/35JchYejb2+5MVeJK0iKThYpAa/P2PYFV4hoi44HD+aHQ==",
+        "dependencies": {}
+      },
+      "@chevrotain/utils@11.0.3": {
+        "integrity": "sha512-YslZMgtJUyuMbZ+aKvfF3x1f5liK4mWNxghFRv7jqRR9C3R3fAOGTTKvxXDa2Y1s9zSbcpuO0cAxDYsc9SrXoQ==",
+        "dependencies": {}
+      },
+      "chevrotain@11.0.3": {
+        "integrity": "sha512-ci2iJH6LeIkvP9eJW6gpueU8cnZhv85ELY8w8WiFtNjMHA5ad6pQLaJo9mEly/9qUyCpvqX8/POVUTf18/HFdw==",
+        "dependencies": {
+          "@chevrotain/cst-dts-gen": "@chevrotain/cst-dts-gen@11.0.3",
+          "@chevrotain/gast": "@chevrotain/gast@11.0.3",
+          "@chevrotain/regexp-to-ast": "@chevrotain/regexp-to-ast@11.0.3",
+          "@chevrotain/types": "@chevrotain/types@11.0.3",
+          "@chevrotain/utils": "@chevrotain/utils@11.0.3",
+          "lodash-es": "lodash-es@4.17.21"
+        }
+      },
+      "lodash-es@4.17.21": {
+        "integrity": "sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==",
+        "dependencies": {}
+      },
+      "source-map@0.7.4": {
+        "integrity": "sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:chevrotain@^11.0.3",
+        "npm:source-map@^0.7.4"
+      ]
+    }
+  }
+}

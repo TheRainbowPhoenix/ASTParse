@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-write --watch main.ts",
+    "gen": "deno run --allow-write main.ts",
+    "srv": "deno run --allow-net --allow-read=\".\" -A -r -q https://deno.land/std/http/file_server.ts --cors --port=8080 ."
+  }
+}

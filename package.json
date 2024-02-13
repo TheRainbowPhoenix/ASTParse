@@ -1,0 +1,16 @@
+{
+  "name": "st-parse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "deno run --watch main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chevrotain": "^11.0.3",
+    "source-map": "^0.7.4"
+  }
+}
